@@ -1,6 +1,15 @@
+import { Features, Hero, InsuranceCommitment, InsuranceInfo, Mission, ServicesSection } from '../components'
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <section>
+      <Hero />
+      <InsuranceCommitment />
+      <Mission />
+      <Features />
+      <ServicesSection />
+      <InsuranceInfo />
+    </section>
   )
 }
 
